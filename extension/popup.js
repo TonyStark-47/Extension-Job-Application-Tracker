@@ -23,8 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = emailInput.value;
         const password = passwordInput.value;
 
-        // fetch("https://job-application-tracker-33ph.onrender.com/login_through_extension", {
-        fetch("http://localhost:5000/login_through_extension", {
+        fetch("https://job-application-tracker-33ph.onrender.com/login_through_extension", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email, password })
@@ -92,8 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function sendDataToServer(data) {
-    // fetch("https://job-application-tracker-33ph.onrender.com/save_data", {
-    fetch("http://localhost:5000/save_data", {
+    fetch("https://job-application-tracker-33ph.onrender.com/save_data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
