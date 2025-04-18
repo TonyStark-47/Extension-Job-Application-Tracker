@@ -14,18 +14,17 @@ You can install this extension manually in **Developer Mode** using GitHub as th
 
 1. ✅ [Install Git for Windows](https://git-scm.com/)
 2. ✅ Download or clone this repo:
-   - Option A (manual): Open PowerShell and run:
-     ```powershell
-     git clone https://github.com/TonyStark-47/Extension-Job-Application-Tracker "$env:USERPROFILE\Extension-Job-Application-Tracker"
-     ```
-   - Option B (auto): Run the `setup.ps1` script included in this repo.
-3. ✅ Open Chrome and go to: `chrome://extensions`
+Open PowerShell and run:
+```powershell
+git clone https://github.com/TonyStark-47/Extension-Job-Application-Tracker "$env:USERPROFILE\Extension-Job-Application-Tracker"
+```
+3. ✅ Open Chrome and go to: `chrome://extensions` (or) brave://extensions (or) Click the three dots (`⋮ `) in the **top-right corner** of Chrome * Go to **"Extensions"**
 4. ✅ Enable **Developer Mode** (top right)
 5. ✅ Click **Load unpacked**
 6. ✅ Select the folder:
- ```
-    C:\Users\<YourUsername>\Extension-Job-Application-Tracker
- ```
+```
+C:\Users\<YourUsername>\Extension-Job-Application-Tracker
+```
 ---
 ### 🐧 macOS / Linux Setup
 
@@ -34,18 +33,13 @@ You can install this extension manually in **Developer Mode** using GitHub as th
 ```bash
 git clone https://github.com/TonyStark-47/Extension-Job-Application-Tracker ~/Extension-Job-Application-Tracker
 ```
-
-Or, run the included script.
-```bash
-setup.sh
-```
-3.✅ Open Chrome and go to: `chrome://extensions`
-4.✅ Enable **Developer Mode**.
-5.✅ Click **Load unpacked**.
-6.✅ Select the folder:
+3. ✅ Open Chrome and go to: `chrome://extensions`
+4. ✅ Enable **Developer Mode**.
+5. ✅ Click **Load unpacked**.
+6. ✅ Select the folder:
 
 ```
-    ~/Extension-Job-Application-Tracker
+~/Extension-Job-Application-Tracker
 ```
 
 ---
@@ -75,16 +69,26 @@ git pull
 ```
 Or use the included `update.sh`:
 ```bash
-update.sh
+./update.sh
 ```
+
 
 ### 🔁 Final Step After Update
 After pulling updates, Chrome **does not auto-reload** unpacked extensions. You need to either:
 * Click the **🔄 Refresh** icon next to the extension in `chrome://extensions`
 * Or close and reopen Chrome
 
-
 ---
+
+### 📌 Pin the Extension to Your Toolbar
+
+1. Click the 🧩 **Extensions icon** in the top-right corner of Chrome (next to your profile picture).
+2. Find **"Job Application Tracker"** in the list.
+3. Click the 📌 **pin icon** next to it.
+
+The extension icon will now stay visible in your toolbar for quick access!
+---
+
 Have feedback or want to contribute? Submit an issue or PR on GitHub.
 
 Happy tracking! 🚀
