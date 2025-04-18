@@ -87,6 +87,7 @@ After pulling updates, Chrome **does not auto-reload** unpacked extensions. You 
 3. Click the 📌 **pin icon** next to it.
 
 The extension icon will now stay visible in your toolbar for quick access!
+
 ---
 
 Have feedback or want to contribute? Submit an issue or PR on GitHub.
