@@ -33,12 +33,12 @@ You can install this extension manually in **Developer Mode** using GitHub as th
 2. ✅ Open Terminal and run:
 ```bash
 git clone https://github.com/TonyStark-47/Extension-Job-Application-Tracker ~/Extension-Job-Application-Tracker
-    ```
+```
 
 Or, run the included script.
-    ```bash
-    setup.sh
-    ```
+```bash
+setup.sh
+```
 3.✅ Open Chrome and go to: `chrome://extensions`
 4.✅ Enable **Developer Mode**.
 5.✅ Click **Load unpacked**.
@@ -58,25 +58,26 @@ Whenever a new version is released, you can pull updates directly from GitHub.
 
 Open PowerShell and run:
 
-    ```powershell
-    cd "$env:USERPROFILE\Extension-Job-Application-Tracker"
-    git pull
-    ```
+```powershell
+cd "$env:USERPROFILE\Extension-Job-Application-Tracker"
+git pull
+```
 Or simply run the included `update.ps1` script:
-    ```powershell
-    .\update.ps1
-    ```
+```powershell
+.\update.ps1
+```
 
 ### 🐧 macOS / Linux
 Open Terminal and run:
-    ```bash
-    cd ~/Extension-Job-Application-Tracker
-    git pull
-    ```
+```bash
+cd ~/Extension-Job-Application-Tracker
+git pull
+```
 Or use the included `update.sh`:
-    ```bash
-    bash update.sh
-    ```
+```bash
+bash update.sh
+```
+
 ### 🔁 Final Step After Update
 After pulling updates, Chrome **does not auto-reload** unpacked extensions. You need to either:
 * Click the **🔄 Refresh** icon next to the extension in `chrome://extensions`
