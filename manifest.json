@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Webpage Extractor",
+  "name": "Job Application Tracker",
   "version": "1.0",
   "description": "Extracts webpage title, URL, and content.",
   "permissions": ["activeTab", "scripting", "storage"],
