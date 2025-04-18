@@ -44,9 +44,9 @@ setup.sh
 5.✅ Click **Load unpacked**.
 6.✅ Select the folder:
 
-    ```
+```
     ~/Extension-Job-Application-Tracker
-    ```
+```
 
 ---
 
@@ -75,7 +75,7 @@ git pull
 ```
 Or use the included `update.sh`:
 ```bash
-bash update.sh
+update.sh
 ```
 
 ### 🔁 Final Step After Update
